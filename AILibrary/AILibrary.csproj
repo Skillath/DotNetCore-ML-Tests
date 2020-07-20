@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.5.1" />
+    <PackageReference Include="Microsoft.ML.TensorFlow" Version="1.5.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.3.0.20200701" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WorstGamesStudios.DependencyInjection.Library">
+      <HintPath>..\..\..\Unity\Microsoft-DependencyInjection-Unity\IoCUnityImplementation\Assets\Runtime\lib\netstandard2.0\WorstGamesStudios.DependencyInjection.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
